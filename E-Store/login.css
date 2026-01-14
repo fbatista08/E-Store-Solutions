@@ -1,0 +1,112 @@
+/* Resetando as margens e padding para garantir consistência */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Estilos gerais para o body */
+body {
+    background-color: #3b4f79;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+    gap: 10px;
+}
+
+/* Centralizar a imagem no topo da página */
+.img-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; 
+    width: 100%;
+    margin-bottom: 30px; 
+}
+
+.img-container img {
+    max-width: 150px;
+    height: auto;
+}
+
+/* Estilos para o container do login */
+#login-container {
+    background: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.445);
+    width: 100%;
+    max-width: 450px;
+}
+
+/* Títulos dentro do container */
+#login-container h1, h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Estilos para os campos de input */
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    outline: none;
+    transition: 0.3s;
+    margin-bottom: 15px;
+}
+
+input:focus {
+    border-color: rgb(0, 0, 255);
+}
+
+/* Estilos para os labels */
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+}
+
+/* Estilos para o botão de submit */
+button {
+    width: 100%;
+    padding: 12px;
+    background: rgb(45, 112, 255);
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: rgb(0, 81, 255);
+}
+
+/* Estilo para a mensagem de erro ou sucesso */
+.mensagem {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 16px;
+}
+
+/* Estilos para o link de cadastro */
+.cadastro-link {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.cadastro-link a {
+    color: rgb(25, 133, 255);
+    text-decoration: none;
+}
+
+.cadastro-link a:hover {
+    text-decoration: underline;
+}

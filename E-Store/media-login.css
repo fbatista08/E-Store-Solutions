@@ -1,0 +1,39 @@
+@media (max-width: 480px){
+    body{
+        display: grid;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        place-items: center;
+    }
+
+    #login-container{
+        width: 90%;
+        position: relative;
+    }
+
+    .cadastro-link{
+        margin: 0px 10px;
+    }
+}
+
+@media (max-width: 780px){
+    body{
+        display: grid;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        place-items: center;
+    }
+
+    #login-container{
+        width: 90%;
+        position: relative;
+    }
+
+    .cadastro-link{
+        margin: 0px 10px;
+    }
+}
